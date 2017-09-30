@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 html{font-family:sans-serif}
 .pomodoro-estimate{
   font-weight: bold;
@@ -56,7 +57,7 @@ h1{
 }
 #addtodoassembly{
     color: #7F382D;
-    border-radius: 20px;
+    border-radius: 10px;
     border-style: double solid;
 }
 html{
