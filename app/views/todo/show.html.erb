@@ -7,7 +7,7 @@
         <h3>To-do #<%= params[:id] %></h3>
         <input type=checkbox>
         <h2> <%= @todo.description %> - <%= @todo.pomodoro_estimate %> podomoros</h2>
-        <a href="#">Edit</a>
+        <a href="/todo/edit/<%=@todo.id%>" class = "button">Edit</a>
         <a href="#">Delete</a>
         <a href="index.html">Go back...</a>
     </body>
