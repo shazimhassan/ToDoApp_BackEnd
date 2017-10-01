@@ -1,8 +1,8 @@
 <h2>Add a new to-do...</h2>
 
-<form action="#">
+<form action='/todo/new' method=post>
   <input class="text-input" id="new-todo-description" name="description" type="text" placeholder="Add a new to-do...">
-  <input class="text-input" id="new-pomodoro-estimate" name="pomodoro-estimate" type="number" placeholder="Pomodoro estimate...">
+  <input class="text-input" id="new-pomodoro-estimate" name="pomodoro_estimate" type="number" placeholder="Pomodoro estimate...">
   <input class="button" id="add-new-todo-button" type="submit" value="Add to-do">
   <input type="hidden" value="<%= form_authenticity_token() %>" name="authenticity_token"/>
 </form>
